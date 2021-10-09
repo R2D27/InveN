@@ -1,5 +1,31 @@
-/* stilo pagina inicio
-muchachos saludo
-este css es para darle estilo a la pagina index */
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #ffffff;
+    color: #33363b;
+}
 
-/* es donde se definn los parametros o las caracteristicas del .html */
+/* Caracteristicas del Body */
+body {
+    padding: 80px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #a3e4c9 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #90cfec 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+  }
+
+body > footer{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    background: #33363b;
+    color: #777;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
